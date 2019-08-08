@@ -23,8 +23,6 @@ public class PostsPage
 		public PostsPage (WebDriver ldriver)
 		
 		{ this.driver =ldriver;}
-	
-	
 
 
 	@FindBy(how=How.CLASS_NAME, using="wp-menu-name")
